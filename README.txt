@@ -41,11 +41,14 @@ bout_num: index of the bout
 bout_len: number of steps in this bout
 bout_type: short, medium, long walking bouts with 5-20, >20-100, >100-500 steps
 
-## belt/
+## belts/
 
-Directory with periods and belts.
+Directory with periods and raw data collected from belts.
 
-x/y/z: acceleratino in g
+*Raw data (c. 11Gb) not included in this repo, but deposited on Zenodo platform*
+*DOI for raw data upload: 10.5281/zenodo.1443190*
+
+x/y/z: acceleration in g
 KSS: 1 or 0 if the belt magnet (in the belt buckle) was closed or open
 
 Note, the KSS can be used to determine whether a belt was open or closed.
